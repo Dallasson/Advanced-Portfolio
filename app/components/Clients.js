@@ -4,7 +4,7 @@ export default function GetClients() {
       <div className="flex flex-row justify-between mx-10 gap-5">
         <div
           className="flex flex-1 flex-col gap-3 justify-center items-center border border-gray-600 rounded-md p-3
-         bg-[#171b23]"
+         bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@ export default function GetClients() {
 
         <div
           className="flex flex-1 flex-col gap-3 justify-center items-center border border-gray-600 rounded-md p-3
-        bg-[#171b23]"
+        bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -37,9 +37,10 @@ export default function GetClients() {
           <h4>10+</h4>
           <h4>Projects Completed</h4>
         </div>
+
         <div
           className="flex flex-1 flex-col gap-3 justify-center items-center border border-gray-600 rounded-md p-3
-        bg-[#171b23]"
+        bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,9 +55,10 @@ export default function GetClients() {
           <h4>7+</h4>
           <h4>Clients Served</h4>
         </div>
+
         <div
           className="flex flex-1 flex-col gap-3 justify-center items-center border border-gray-600 rounded-md p-3
-        bg-[#171b23]"
+        bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -71,6 +73,7 @@ export default function GetClients() {
           <h4>+1</h4>
           <h4>Countries Worked In</h4>
         </div>
+
       </div>
     </div>
   );

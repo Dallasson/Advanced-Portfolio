@@ -25,16 +25,17 @@ export default function GetServices() {
       </h4>
 
       <div className="flex flex-row justify-between m-10 gap-5">
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260] transition-all ">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={34}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 81.83 122.88"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+              <polygon points="33.05,63.12 0,60.01 27.4,0 64.86,0 43.62,34.43 81.83,38.66 11.69,122.88 33.05,63.12"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -47,23 +48,23 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">Load & short circuit calculations</li>
-            <li className="text-white">Shop drawings preparation</li>
-            <li className="text-white">Voltage drop analysis</li>
-            <li className="text-white">IFC & tender coordination</li>
+            <li className="text-[#838a95] text-sm">Load & short circuit calculations</li>
+            <li className="text-[#838a95] text-sm">Shop drawings preparation</li>
+            <li className="text-[#838a95] text-sm">Voltage drop analysis</li>
+            <li className="text-[#838a95] text-sm">IFC & tender coordination</li>
           </ul>
         </div>
 
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 122.88 122.88"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+              <path d="M81.61,4.73c0-2.61,2.58-4.73,5.77-4.73s5.77,2.12,5.77,4.73v20.72c0,2.61-2.58,4.73-5.77,4.73 s-5.77-2.12-5.77-4.73V4.73L81.61,4.73z M29.61,4.73c0-2.61,2.58-4.73,5.77-4.73s5.77,2.12,5.77,4.73v20.72 c0,2.61-2.58,4.73-5.77,4.73s-5.77-2.12-5.77-4.73V4.73L29.61,4.73z M40.99,84.56c-1.27-1.22-1.31-3.24-0.09-4.51 c1.22-1.27,3.24-1.31,4.51-0.09l9.9,9.57l22.02-23.58c1.2-1.29,3.22-1.36,4.51-0.16c1.29,1.2,1.36,3.22,0.16,4.51L57.77,96.26l0,0 l-0.04,0.04c-1.22,1.27-3.24,1.31-4.51,0.09L40.99,84.56L40.99,84.56z M6.4,45.32h110.08V21.47c0-0.8-0.33-1.53-0.86-2.07 c-0.53-0.53-1.26-0.86-2.07-0.86H103c-1.77,0-3.2-1.43-3.2-3.2c0-1.77,1.43-3.2,3.2-3.2h10.55c2.57,0,4.9,1.05,6.59,2.74 c1.69,1.69,2.74,4.02,2.74,6.59v27.06v65.03c0,2.57-1.05,4.9-2.74,6.59c-1.69,1.69-4.02,2.74-6.59,2.74H9.33 c-2.57,0-4.9-1.05-6.59-2.74C1.05,118.45,0,116.12,0,113.55V48.53V21.47c0-2.57,1.05-4.9,2.74-6.59c1.69-1.69,4.02-2.74,6.59-2.74 H20.6c1.77,0,3.2,1.43,3.2,3.2c0,1.77-1.43,3.2-3.2,3.2H9.33c-0.8,0-1.53,0.33-2.07,0.86c-0.53,0.53-0.86,1.26-0.86,2.07V45.32 L6.4,45.32z M116.48,51.73H6.4v61.82c0,0.8,0.33,1.53,0.86,2.07c0.53,0.53,1.26,0.86,2.07,0.86h104.22c0.8,0,1.53-0.33,2.07-0.86 c0.53-0.53,0.86-1.26,0.86-2.07V51.73L116.48,51.73z M50.43,18.54c-1.77,0-3.2-1.43-3.2-3.2c0-1.77,1.43-3.2,3.2-3.2h21.49 c1.77,0,3.2,1.43,3.2,3.2c0,1.77-1.43,3.2-3.2,3.2H50.43L50.43,18.54z"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -76,23 +77,23 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">Load & short circuit calculations</li>
-            <li className="text-white">Shop drawings preparation</li>
-            <li className="text-white">Voltage drop analysis</li>
-            <li className="text-white">IFC & tender coordination</li>
+            <li className="text-[#838a95] text-sm">Load & short circuit calculations</li>
+            <li className="text-[#838a95] text-sm">Shop drawings preparation</li>
+            <li className="text-[#838a95] text-sm">Voltage drop analysis</li>
+            <li className="text-[#838a95] text-sm">IFC & tender coordination</li>
           </ul>
         </div>
 
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 122.88 111.82"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+              <path d="M104.75,69a2.2,2.2,0,0,0-1.67-.39,2.24,2.24,0,0,0-1.44.94l-2,2.8a12.31,12.31,0,0,0-2.22-.74,23.26,23.26,0,0,0-2.29-.47l-.63-3.65a2.19,2.19,0,0,0-.89-1.44A2.09,2.09,0,0,0,92,65.72l-4.59.82a2.25,2.25,0,0,0-1.43.89,2.08,2.08,0,0,0-.39,1.67l.58,3.35A13.85,13.85,0,0,0,84,73.53a16.11,16.11,0,0,0-1.9,1.33L79,72.72a2.07,2.07,0,0,0-1.63-.39,2.26,2.26,0,0,0-1.44.93L73.31,77a2.12,2.12,0,0,0-.39,1.67,2.17,2.17,0,0,0,.93,1.44l2.8,2a13.14,13.14,0,0,0-.74,2.22,23.26,23.26,0,0,0-.47,2.29l-3.65.62a2.27,2.27,0,0,0-1.44.9A2.14,2.14,0,0,0,70,89.82l.81,4.59a2.3,2.3,0,0,0,.9,1.43,2.08,2.08,0,0,0,1.67.39l3.34-.58a14.88,14.88,0,0,0,1.09,2.1,22.85,22.85,0,0,0,1.32,1.94L77,102.76a2.05,2.05,0,0,0-.38,1.63,2.23,2.23,0,0,0,.93,1.44l3.81,2.68a2.13,2.13,0,0,0,1.67.35A2.43,2.43,0,0,0,84.5,108l2-2.84a14.1,14.1,0,0,0,2.22.74c.77.19,1.51.35,2.29.47l.62,3.65a2.23,2.23,0,0,0,.89,1.43,2.11,2.11,0,0,0,1.67.36l4.59-.82a2.31,2.31,0,0,0,1.44-.89,2.14,2.14,0,0,0,.39-1.68l-.58-3.34A13.37,13.37,0,0,0,102.1,104a20.86,20.86,0,0,0,2-1.32l3.07,2.14a2.11,2.11,0,0,0,1.67.39,2.21,2.21,0,0,0,1.44-.93l2.68-3.81a2.13,2.13,0,0,0,.35-1.67,2.37,2.37,0,0,0-.9-1.48l-2.83-1.94a14.45,14.45,0,0,0,.74-2.22c.19-.78.35-1.52.46-2.29l3.66-.63a2.19,2.19,0,0,0,1.43-.89,2.1,2.1,0,0,0,.35-1.67l-.81-4.59a2.31,2.31,0,0,0-.9-1.44,2.14,2.14,0,0,0-1.67-.39l-3.34.59a17.53,17.53,0,0,0-1.09-2.1,13.32,13.32,0,0,0-1.32-1.9l2.14-3.11a2.08,2.08,0,0,0,.39-1.64,2.27,2.27,0,0,0-.93-1.43L104.87,69l-.12,0ZM41.19,45.78a11.35,11.35,0,0,0-2.31-.61A12.06,12.06,0,0,0,36.49,45a13.26,13.26,0,0,0-2.16.28s-.07,0-.14,0A12.23,12.23,0,0,0,32,46.1a11.46,11.46,0,0,0-1.93,1.1,10.23,10.23,0,0,0-1.67,1.48A11.74,11.74,0,0,0,27,50.53a11.88,11.88,0,0,0-1,2.08,11.35,11.35,0,0,0-.61,2.31,12.06,12.06,0,0,0-.16,2.39,14.46,14.46,0,0,0,.28,2.16s0,.07,0,.14a12.23,12.23,0,0,0,.77,2.21,11.46,11.46,0,0,0,1.1,1.93,9.76,9.76,0,0,0,1.48,1.66,12,12,0,0,0,3.93,2.47,12.24,12.24,0,0,0,2.31.61,11.34,11.34,0,0,0,2.39.15,13.28,13.28,0,0,0,2.16-.27s.07,0,.14,0A12.75,12.75,0,0,0,42,67.56a11.46,11.46,0,0,0,1.93-1.1A10.72,10.72,0,0,0,45.56,65,12.21,12.21,0,0,0,48,61.05a11.53,11.53,0,0,0,.61-2.31,12.06,12.06,0,0,0,.16-2.39,14.29,14.29,0,0,0-.28-2.16s0-.07,0-.14a12.75,12.75,0,0,0-.76-2.21,12.24,12.24,0,0,0-1.11-1.93,10.23,10.23,0,0,0-1.48-1.67,12.21,12.21,0,0,0-1.85-1.42,11.88,11.88,0,0,0-2.08-1ZM63.94,31.62a5.72,5.72,0,0,1,1.58,1.48l4.12,5.7h0a5.79,5.79,0,0,1,.91,1.93,5.24,5.24,0,0,1,.08,2.16,5.6,5.6,0,0,1-.77,2,4.88,4.88,0,0,1-1.5,1.5L65,48.89c0,.1.06.21.08.31.17.59.3,1.21.43,1.79,0,0,0,.07,0,.1.14.59.23,1.23.32,1.91l0,.23,3.55.58a5.2,5.2,0,0,1,2,.76A5.41,5.41,0,0,1,73,56.05l0,0A5.38,5.38,0,0,1,73.91,58,5.91,5.91,0,0,1,74,60.15l-1.15,7a5.31,5.31,0,0,1-2.21,3.61,5.41,5.41,0,0,1-2,.9,5.73,5.73,0,0,1-2.15,0L62.38,71c0,.09-.13.21-.18.3-.32.55-.67,1.08-1,1.62s-.75,1.1-1.12,1.57l-.13.18L62,77.6l.08.11a5.4,5.4,0,0,1,.84,2,5.6,5.6,0,0,1-2.09,5.67l-.07.06-5.73,4.09a5.54,5.54,0,0,1-1.94.94,5.35,5.35,0,0,1-2.19.07,6.25,6.25,0,0,1-2.06-.77,5.16,5.16,0,0,1-1.54-1.51L45,84.86a1.21,1.21,0,0,1-.34.07c-.59.14-1.21.3-1.86.43s-1.26.22-1.9.31a.83.83,0,0,1-.27,0L40,89.21a5.2,5.2,0,0,1-.76,2,5.41,5.41,0,0,1-1.48,1.54l0,0a5.35,5.35,0,0,1-1.93.88,5.81,5.81,0,0,1-2.12.08l-7-1.15a5.31,5.31,0,0,1-3.61-2.21,5.41,5.41,0,0,1-.9-2,5.74,5.74,0,0,1,0-2.15l.67-4.13-.3-.19c-.54-.32-1.08-.67-1.62-1s-1.1-.74-1.57-1.12l-.18-.13L16.22,81.8l-.11.08a5.26,5.26,0,0,1-1.95.84,5.65,5.65,0,0,1-4.09-.67,5.47,5.47,0,0,1-1.59-1.42l-.06-.07-4.1-5.8a5.79,5.79,0,0,1-.91-1.93,5.24,5.24,0,0,1-.08-2.16,5.77,5.77,0,0,1,.76-2A6.3,6.3,0,0,1,5.6,67.1L9,64.71a.89.89,0,0,1-.08-.34c-.13-.59-.3-1.21-.42-1.86a18.38,18.38,0,0,1-.32-1.9l0-.27-3.51-.57a5.32,5.32,0,0,1-3.57-2.24l0,0a5.12,5.12,0,0,1-.87-1.92,5.86,5.86,0,0,1-.09-2.13l1.15-7a5.74,5.74,0,0,1,.73-2,6,6,0,0,1,1.48-1.58,5.41,5.41,0,0,1,2-.9,5.79,5.79,0,0,1,2.16,0l4.12.67.18-.3c.32-.54.67-1.08,1-1.62s.74-1.1,1.11-1.57l.13-.17L12.05,36a5.19,5.19,0,0,1-.9-2,5.43,5.43,0,0,1-.08-2.16,5,5,0,0,1,.77-2,5.58,5.58,0,0,1,1.48-1.58L19,24.1v0a5.76,5.76,0,0,1,1.93-.9,5.29,5.29,0,0,1,2.17-.08,5.72,5.72,0,0,1,2,.76,5.14,5.14,0,0,1,1.51,1.5l2.45,3.38a1.32,1.32,0,0,0,.28-.09c.59-.16,1.21-.29,1.86-.45s1.26-.23,1.91-.32a.59.59,0,0,1,.26,0L34,24.34a5,5,0,0,1,.76-2,5.16,5.16,0,0,1,1.47-1.55l0,0a5.17,5.17,0,0,1,1.93-.87,5.65,5.65,0,0,1,2.13-.08l7,1.14a6.11,6.11,0,0,1,2,.73,5.11,5.11,0,0,1,1.58,1.49,5.36,5.36,0,0,1,.9,2,5.59,5.59,0,0,1,0,2.16l-.68,4.12.3.18c.55.32,1.08.67,1.62,1s1.1.74,1.57,1.11l.18.13,2.92-2.07a5.08,5.08,0,0,1,2-.9,5.44,5.44,0,0,1,2.16-.08,5.38,5.38,0,0,1,2,.77v.06ZM37,36.59A20.19,20.19,0,1,1,16.84,56.77,20.17,20.17,0,0,1,37,36.59ZM94.52,52l22-21.78v9.13a3.19,3.19,0,0,0,6.38,0V22.51h0a3.17,3.17,0,0,0-3.38-3.17h-15.8a3.19,3.19,0,1,0,0,6.37h8.36L90,47.54l4.5,4.5ZM69.68,23.45,82,10.93v9.13a3.19,3.19,0,0,0,6.38,0V3.18h0A3.17,3.17,0,0,0,85,0H69.21a3.19,3.19,0,1,0,0,6.38h8.36L65.18,19l4.5,4.5ZM91.42,79.83a9.2,9.2,0,0,1,3.62.08,9.34,9.34,0,0,1,3.18,1.39,9.54,9.54,0,0,1,2.41,2.53,8.51,8.51,0,0,1,1.28,3.34,9.2,9.2,0,0,1-.08,3.62,9.36,9.36,0,0,1-1.4,3.18,9.07,9.07,0,0,1-2.52,2.41,8.68,8.68,0,0,1-3.34,1.29,9.09,9.09,0,0,1-6.8-1.48,9.24,9.24,0,0,1-2.41-2.53,8.68,8.68,0,0,1-1.29-3.34,9,9,0,0,1,4-9.21,8.45,8.45,0,0,1,3.34-1.28Z"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -105,25 +106,27 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">Load & short circuit calculations</li>
-            <li className="text-white">Shop drawings preparation</li>
-            <li className="text-white">Voltage drop analysis</li>
-            <li className="text-white">IFC & tender coordination</li>
+            <li className="text-[#838a95] text-sm">Load & short circuit calculations</li>
+            <li className="text-[#838a95] text-sm">Shop drawings preparation</li>
+            <li className="text-[#838a95] text-sm">Voltage drop analysis</li>
+            <li className="text-[#838a95] text-sm">IFC & tender coordination</li>
           </ul>
         </div>
+
       </div>
 
       <div className="flex flex-row justify-between mx-10 gap-5">
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 111.811 122.88"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+              <path  d="M55.713,0c20.848,13.215,39.682,19.467,55.846,17.989 c2.823,57.098-18.263,90.818-55.63,104.891C19.844,109.708-1.5,77.439,0.083,17.123C19.058,18.116,37.674,14.014,55.713,0L55.713,0 z M56.163,19.543c14.217,9.011,27.061,13.274,38.083,12.268c1.925,38.936-12.454,61.93-37.935,71.526 c-0.161-0.059-0.319-0.12-0.479-0.18V19.796L56.163,19.543L56.163,19.543z M55.735,7.055 c18.454,11.697,35.126,17.232,49.434,15.923c2.498,50.541-16.166,80.39-49.241,92.846C23.986,104.165,5.091,75.603,6.493,22.211 C23.29,23.091,39.768,19.46,55.735,7.055L55.735,7.055z"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -135,23 +138,23 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">Fire alarm loop integrations</li>
-            <li className="text-white">Emergency lighting systems</li>
-            <li className="text-white">Coordination with ELV subcontractors</li>
-            <li className="text-white">Lighting schematics and layouts</li>
+            <li className="text-[#838a95] text-sm">Fire alarm loop integrations</li>
+            <li className="text-[#838a95] text-sm">Emergency lighting systems</li>
+            <li className="text-[#838a95] text-sm">Coordination with ELV subcontractors</li>
+            <li className="text-[#838a95] text-sm">Lighting schematics and layouts</li>
           </ul>
         </div>
 
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 114.1 122.88"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+              <path d="M75.84,27.1a35.68,35.68,0,0,1,8.61,7.09,32.45,32.45,0,0,1,5.76,9.26h0a36.84,36.84,0,0,1,1.85,6,34.64,34.64,0,0,1,.24,14,38.69,38.69,0,0,1-2.15,7.32l-.12.25c-2.06,5-5.59,9.86-9,14.66-1.75,2.42-3.48,4.82-4.94,7.15A4.69,4.69,0,0,1,71.73,95l-27.56,4.1A4.7,4.7,0,0,1,39,95.69a40.19,40.19,0,0,0-2.54-5.82,24.85,24.85,0,0,0-3-4.49c-1.43-1.63-2.88-3.29-4.29-5.2A40.42,40.42,0,0,1,25,73.24h0a41.08,41.08,0,0,1-2.81-8,35.84,35.84,0,0,1-.95-8.45v0A35.39,35.39,0,0,1,22.35,48a41.69,41.69,0,0,1,3.42-8.85l.2-.35a35.55,35.55,0,0,1,7.13-8.63,33.72,33.72,0,0,1,9.46-5.83l.28-.1a35.41,35.41,0,0,1,8-2.14,37.78,37.78,0,0,1,8.77-.2,39.14,39.14,0,0,1,8.4,1.71,38.44,38.44,0,0,1,7.79,3.49Zm-4,87.26a17.37,17.37,0,0,1-6.28,6.29,16.46,16.46,0,0,1-7.2,2.2A14.87,14.87,0,0,1,51,121.4a15.1,15.1,0,0,1-4.39-3.27l25.29-3.77Zm2.41-14.15,0,1.65,0,.58a22,22,0,0,1,0,3.25l-.49,2.39-30.64,4.56-.54-1.23-1.19-4.9,0-1.42,32.79-4.88ZM56.34,3.77A3.84,3.84,0,0,1,60.23,0h0l.27,0A3.84,3.84,0,0,1,64,3.89h0a1.27,1.27,0,0,1,0,.2l-.21,8.21h0a2.11,2.11,0,0,1,0,.26,3.84,3.84,0,0,1-3.87,3.54h0l-.27,0a3.84,3.84,0,0,1-3.53-3.88h0a1.09,1.09,0,0,1,0-.19l.2-8.25ZM14,18.15a3.84,3.84,0,0,1,2.47-6.66,3.83,3.83,0,0,1,2.76,1l6.16,5.73a3.91,3.91,0,0,1,1.22,2.68,3.82,3.82,0,0,1-1,2.76,3.86,3.86,0,0,1-2.67,1.22,3.8,3.8,0,0,1-2.76-1L14,18.15ZM3.92,60.48A3.86,3.86,0,0,1,0,56.75a3.84,3.84,0,0,1,3.73-4l8.41-.28a3.84,3.84,0,0,1,4,3.72v.06h0v.14a3.84,3.84,0,0,1-3.73,3.77h-.15l-8.3.27Zm106-11.92H110a3.84,3.84,0,0,1,2.66.86,3.81,3.81,0,0,1,1.4,2.59v0a.49.49,0,0,1,0,.13,3.84,3.84,0,0,1-3.44,4.06l-8.37.89a3.83,3.83,0,0,1-2.81-.85,3.84,3.84,0,0,1,2-6.8c2.79-.31,5.6-.63,8.4-.9ZM93.33,15.09A3.83,3.83,0,0,1,98.65,14h0a3.73,3.73,0,0,1,1.63,2.44,3.84,3.84,0,0,1-.58,2.88l-4.68,7A3.8,3.8,0,0,1,92.58,28a3.88,3.88,0,0,1-2.88-.57A3.92,3.92,0,0,1,88.06,25a3.84,3.84,0,0,1,.58-2.88l4.69-7ZM38.23,80.87A42.19,42.19,0,0,1,31,70.56,31.2,31.2,0,0,1,27.89,57,31.7,31.7,0,0,1,31.7,42.56a.47.47,0,0,0,.05-.1h0a27.5,27.5,0,0,1,13.4-11.71,29.65,29.65,0,0,1,13.93-2A32.09,32.09,0,0,1,72.39,33,27.43,27.43,0,0,1,84,46.2,28.85,28.85,0,0,1,84,68.45C81.31,75,75.15,82,71.11,88.4a1.67,1.67,0,0,0-.67,0L44.36,92.25a35,35,0,0,0-6.13-11.38Z"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -163,23 +166,23 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">PGC & ADDC standard compliance</li>
-            <li className="text-white">Third-party inspection handling</li>
-            <li className="text-white">Test & commissioning support</li>
-            <li className="text-white">Live testing & shutdown planning</li>
+            <li className="text-[#838a95] text-sm">PGC & ADDC standard compliance</li>
+            <li className="text-[#838a95] text-sm">Third-party inspection handling</li>
+            <li className="text-[#838a95] text-sm">Test & commissioning support</li>
+            <li className="text-[#838a95] text-sm">Live testing & shutdown planning</li>
           </ul>
         </div>
 
-        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23]">
-          <div className="flex bg-[#1f6de6] w-[80px] h-[80px] rounded-2xl justify-center items-center flex-1">
+        <div className="border border-gray-600 p-5 rounded-2xl bg-[#171b23] hover:shadow-lg hover:shadow-[#1d60c260]">
+          <div className="flex bg-[#1f6de6] w-[70px] h-[70px] rounded-2xl justify-center items-center flex-1">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width={50}
-              height={50}
+              width={35}
+              height={35}
               fill="#FFFFFF"
-              viewBox="0 0 24 24"
+              viewBox="0 0 122.88 62.63"
             >
-              <path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" />
+             <path d="M44.94,20.02c-7.77-8.05-18.67-13.18-27.82-4.34c-2.99,2.88-5.13,6.8-6.07,11c-1.12,4.98-0.28,9.53,1.79,13.28 c1.84,3.34,4.65,6.07,7.96,7.95c3.32,1.89,7.1,2.91,10.85,2.8c4.12-0.12,8.24-1.64,11.7-4.91c4.89-4.63,9.16-11.55,13.33-18.3 c4.56-7.38,9-14.57,14.45-19.43c3.89-3.47,8.05-5.71,12.27-6.94c6.06-1.76,12.12-1.37,17.63,0.55c5.42,1.88,10.28,5.22,14.02,9.42 c3.18,3.56,5.6,7.8,6.92,12.33c1.92,6.6,0.76,14.51-2.74,21.43c-2.48,4.89-6.16,9.38-10.78,12.62c-4.75,3.33-10.47,5.34-16.87,5.15 c-7.32-0.22-15.4-3.3-23.73-10.6l6.93-7.92c6.31,5.53,12.08,7.85,17.09,8c3.98,0.12,7.56-1.15,10.56-3.25 c3.13-2.19,5.66-5.3,7.4-8.74c2.36-4.66,3.2-9.75,2.04-13.75c-0.86-2.96-2.5-5.79-4.69-8.25c-2.6-2.92-5.92-5.22-9.56-6.49 c-3.55-1.23-7.44-1.5-11.28-0.38c-2.73,0.79-5.5,2.31-8.19,4.71c-4.37,3.9-8.39,10.4-12.51,17.08c-4.54,7.35-9.19,14.88-15.03,20.4 c-5.48,5.19-12.07,7.6-18.67,7.8c-5.71,0.17-11.4-1.34-16.34-4.16c-4.96-2.82-9.2-6.96-12-12.04c-3.24-5.87-4.55-12.96-2.82-20.67 c1.39-6.18,4.58-11.97,9.05-16.28c3.01-2.9,6.6-5.15,10.63-6.42c4.06-1.28,8.52-1.55,13.24-0.49c6.08,1.37,12.51,4.96,18.85,11.54 L44.94,20.02L44.94,20.02z"/>
             </svg>
           </div>
           <h4 className="mt-5 text-white font-bold text-lg">
@@ -191,12 +194,13 @@ export default function GetServices() {
           </h4>
 
           <ul className="list-disc list-inside mt-5 marker:text-[#1f6de6]">
-            <li className="text-white">Technical meetings with consultants</li>
-            <li className="text-white">Progress reports & milestones</li>
-            <li className="text-white">Team coordination & approvals</li>
-            <li className="text-white">Client & stakeholder communication</li>
+            <li className="text-[#838a95] text-sm">Technical meetings with consultants</li>
+            <li className="text-[#838a95] text-sm">Progress reports & milestones</li>
+            <li className="text-[#838a95] text-sm">Team coordination & approvals</li>
+            <li className="text-[#838a95] text-sm">Client & stakeholder communication</li>
           </ul>
         </div>
+
       </div>
     </div>
   );
