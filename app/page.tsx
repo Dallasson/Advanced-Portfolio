@@ -5,8 +5,8 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Clients from "./components/Clients";
 import Projects from "./components/projects";
-import Sections from "./components/section";
 import GetSection from "./components/section";
+import Footer from "./components/Footer";
 import { useRef } from "react";
 
 export default function Home() {
@@ -49,9 +49,7 @@ export default function Home() {
         <Projects />
       </section>
 
-      <section ref={contactRef}>
-        <div className="text-white text-center py-20">Contact Section</div>
-      </section>
+      <Footer />
     </div>
   );
 }
