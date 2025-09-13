@@ -7,6 +7,7 @@ import Clients from "./components/Clients";
 import Projects from "./components/projects";
 import GetSection from "./components/section";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 import { useRef } from "react";
 
 export default function Home() {
@@ -49,7 +50,10 @@ export default function Home() {
         <Projects />
       </section>
 
+      <Contact />
+
       <Footer />
+
     </div>
   );
 }
