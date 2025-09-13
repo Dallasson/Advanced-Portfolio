@@ -5,10 +5,11 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Clients from "./components/Clients";
 import Projects from "./components/projects";
-import GetSection from "./components/section";
+import Section from "./components/Section";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import { useRef } from "react";
+import GetSection from "./components/Section";
 
 export default function Home() {
 
