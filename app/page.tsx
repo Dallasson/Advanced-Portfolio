@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import { useRef } from "react";
 
 export default function Home() {
+
   const aboutRef = useRef<HTMLElement | null>(null);
   const servicesRef = useRef<HTMLElement | null>(null);
   const projectsRef = useRef<HTMLElement | null>(null);
@@ -50,7 +51,9 @@ export default function Home() {
         <Projects />
       </section>
 
-      <Contact />
+      <section ref={contactRef} >
+         <Contact />
+      </section>
 
       <Footer />
 
